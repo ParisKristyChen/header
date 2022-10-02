@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+  min-width: 700px;
+}
+
+li, a, button {
+  font-family: "Open+Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* text-decoration 文字下划线 */
+
+.header_one_logo {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.header1 {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.header_one--nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.header_one--nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.header_one--nav_links li a:hover {
+  color: #0088a9;
+}
+
+/* ease速度慢快慢默认 :hover指着目标会变色 */
+
+.header_one--cta > button {
+  padding: 9px 25px;
+  background-color: rgba(0, 200, 150, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.header_one--cta > button:hover {
+  background-color: rgba(0, 130, 170, 0.8);
+  color: #eeeeee;
+}
+
+.header_two_logo {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.header2 {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.header_two--nav_links {
+  list-style: none;
+}
+
+/* list-style文字排版无点 */
+
+.header_two--nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.header_two--nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.header_two--nav_links li a:hover {
+  color: #0088a9;
+}
+
+
+.header_two--cta > button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0, 200, 150, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.header_two--cta > button:hover {
+  background-color: rgba(0, 130, 170, 0.8);
+  color: #eeeeee;
+}
+
+.header3 {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.header_three_logo {
+  width: 50px;
+  height: 50px;
+  order: 2;
+}
+
+.header_three--nav_links {
+  list-style: none;
+  order: 1;
+}
+
+.header_three--nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.header_three--nav_links li a:hover {
+  color: #0088a9;
+}
+
+.header_three--cta {
+  order: 3;
+}
+
+.header_three--cta > button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0, 200, 150, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.header_three--cta > button:hover {
+  background-color: rgba(0, 130, 170, 0.8);
+  color: #eeeeee;
+}
